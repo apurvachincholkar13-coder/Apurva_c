@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main(){
+     int arr[5][4];
+     int i,j;
+printf("Enter 20 elements for 4*5 matrix: \n");
+         for(i=0;i<5;i++){
+             for (j=0;j<4;j++){
+          scanf("%d   ",&arr[i][j]);
+      }
+      }
+
+      printf("Enter 20 elements for 4*5 matrix: \n");
+         for(i=0;i<5;i++){
+             for (j=0;j<4;j++){     
+                printf("%d  ",arr[i][j]);
+             }
+    printf("\n");
+             }  
+printf("transpose Matrix elements are: \n");
+         for(i=0;i<4;i++){
+              for(j=0;j<5;j++){
+
+printf("%d   ",arr[j][i]);
+  }
+          printf("\n");
+    }
+    return 0;
+    }

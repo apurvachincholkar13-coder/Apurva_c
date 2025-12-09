@@ -1,0 +1,22 @@
+#include<stdio.h>
+struct students
+{
+char name[10];
+int roll;
+float marks;
+};
+int main()
+{
+struct students s[5];
+int i;
+for(i=0;i<5;i++)
+{
+printf("Enter name,roll and marks: ");
+scanf("%s %d %f",&s[i].name,&s[i].roll,&s[i].marks);
+}
+for(i=0;i<5;i++)
+{
+printf("name = %s and  roll =%d   marks : %.2f\n",s[i].name ,s[i].roll, s[i].marks);
+}
+return 0;
+}
